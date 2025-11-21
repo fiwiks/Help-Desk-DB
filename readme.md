@@ -12,3 +12,5 @@ Once installed, the web application can be run in the terminal using the command
 and the command line interface using:<br>
   cd ~/helpDeskDB/CLI/<br>
   ./start.sh
+
+If you are for some reason unable to launch the VM image, go into the VM settings -> Network, and uncheck Enable Network Adapter for all adapters.
