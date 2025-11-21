@@ -2,7 +2,7 @@
 
 This program is designed to run on Oracle 23ai Database virtual machine, ideally the best way to run this is to first have Oracle VirtualBox installed: [Link](https://www.virtualbox.org/wiki/Downloads)
 
-Then download HelpDeskDB_VM.ova from the latest release: [Download](https://github.com/fiwiks/Help-Desk-DB/releases/latest).
+Then download HelpDeskDB_VM.ova from the drive: [Download](https://drive.google.com/drive/folders/1kv6Qkz2sFo0lAaITq9f-iJ1rSAutlLwf?usp=sharing).
 
 Inside of the Oracle VirtualBox menu, select File -> Import Appliance and select the HelpDesk_VM.ova
 
