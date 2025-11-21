@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<title>Help Desk Login</title>
+		<link rel="stylesheet" href="static/styles.css">
+		<script src="/static/login.js"></script>
+	</head>
+
+	<body>
+	<div class="container">
+		<h1 class="login-h1">Help Desk Database</h1>
+		<h2>Login</h2>
+	
+		<form id="login-form" class="login-form">
+			<div class="user-input">
+				<label for="username">Username: </label>
+				<input type="text" id="username" name="username">
+			</div>
+
+			<div class="pass-input">
+				<label for="password">Password: </label>
+				<input type="password" id="password" name="password">
+			</div>
+
+			<div class="submit">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+
+		<div id="login-status" class="admin-status hidden"></div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<title>Help Desk Database Web UI</title>
+		<link rel="stylesheet" href="static/styles.css">
+		<script src="static/script.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Help Desk Database</h1>
+			<h2>Web UI - Oracle 23ai Database</h2>
+
+			<div class="menu">
+				<a href="/run?q=1">Organizations by Incident Count</a>
+				<a href="/run?q=2">Open Incidents per Staff</a>
+				<a href="/run?q=3">Incident Distribution (State x Priority)</a>
+				<a href="/run?q=4">Departments per Organization</a>
+				<a href="/run?q=5">Reports targeting INCIDENTS</a>
+				<a href="/run?q=6">Incidents by Organization</a>
+			</div>
+
+			<h3>Schema</h3>
+			<div class="admin">
+				<button id="create">Create Schema</button>
+				<button id="delete">Drop Schema</button>
+				<button id="insert">Insert Data</button>
+			</div>
+
+			<div id="admin-status" class="admin-status"></div>
+		</div>
+	</body>
+</html>
