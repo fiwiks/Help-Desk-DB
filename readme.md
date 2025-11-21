@@ -6,9 +6,9 @@ Then download HelpDeskDB_VM.ova from the drive: [Download](https://drive.google.
 
 Inside of the Oracle VirtualBox menu, select File -> Import Appliance and select the HelpDesk_VM.ova
 
-Once installed, the web application can be run in the terminal using the command: 
+Once installed, the web application can be run in the terminal using the command: <br>
   python3 ~/helpDeskDB/web/server.py 
 
-and the command line interface using:
-  cd ~/helpDeskDB/CLI/
+and the command line interface using:<br>
+  cd ~/helpDeskDB/CLI/<br>
   ./start.sh
